@@ -9,7 +9,7 @@ export default function Contact() {
                     <div className="grid md:grid-cols-1 gap-8 text-center">
                         <div className="space-y-6">
                             <p className="text-lg text-gray-600 dark:text-gray-300">
-                                I am currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                                I am currently open to new opportunities. Whether you have a question or just want to say hi, I will try my best to get back to you!
                             </p>
 
                             <div className="flex flex-col md:flex-row justify-center gap-8 mt-8">

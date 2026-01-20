@@ -7,7 +7,7 @@ export default function Education() {
                 <h2 className="text-3xl font-bold mb-12 text-center text-gray-900 dark:text-white">Education & Experience</h2>
 
                 <div className="grid md:grid-cols-2 gap-12">
-                    {/* Education Column */}
+                   
                     <div>
                         <h3 className="text-2xl font-semibold mb-8 text-blue-600 dark:text-blue-400 border-b pb-2">Education</h3>
                         <div className="space-y-12">
@@ -23,7 +23,7 @@ export default function Education() {
                         </div>
                     </div>
 
-                    {/* Experience Column */}
+    
                     <div>
                         <h3 className="text-2xl font-semibold mb-8 text-blue-600 dark:text-blue-400 border-b pb-2">Experience</h3>
                         <div className="space-y-12">

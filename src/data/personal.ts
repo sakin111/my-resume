@@ -2,11 +2,11 @@
 export interface Project {
   id: string;
   name: string;
-  image: string; // URL or local path
+  image: string; 
   description: string;
   mainStack: string[];
   liveLink: string;
-  repoLink: string; // client
+  repoLink: string; 
   challenges: string;
   improvements: string;
 }
@@ -14,18 +14,18 @@ export interface Project {
 export interface Skill {
   name: string;
   category: "Frontend" | "Backend" | "Tools" | "Soft Skills";
-  level: number; // 0-100
+  level: number;
 }
 
 export const personalDetails = {
-  name: "Your Name", // Placeholder
+  name: "Your Name", 
   designation: "Frontend Developer",
-  email: "your.email@example.com", // Placeholder
-  phone: "+880 1234 567 890", // Placeholder
-  whatsapp: "+880 1234 567 890", // Placeholder
-  address: "Dhaka, Bangladesh", // Placeholder
-  photo: "https://placehold.co/400x400/1a1a1a/ffffff?text=ME", // Placeholder
-  resumeLink: "/resume.pdf", // Placeholder
+  email: "your.email@example.com",
+  phone: "+880 1234 567 890",
+  whatsapp: "+880 1234 567 890",
+  address: "Dhaka, Bangladesh", 
+  photo: "https://res.cloudinary.com/dmbf41o2r/image/upload/v1768897981/Gemini_Generated_Image_p27b7bp27b7bp27b_ehif7t.png", // Placeholder
+  resumeLink: "https://drive.google.com/file/d/1VHmTP_6d_S_EtineXOGT4BgwDJNacHiM/view?usp=sharing", 
   about: {
     introduction: "I am a passionate Frontend Developer with a knack for building beautiful and responsive web applications. My journey started with a curiosity for how websites work, and it has evolved into a full-blown career where I craft seamless user experiences.",
     journey: "I started coding in 2023, diving deep into HTML, CSS, and JavaScript. Over time, I mastered React and Next.js, building various projects that solve real-world problems.",
@@ -33,8 +33,8 @@ export const personalDetails = {
     personality: "I am a detail-oriented person who loves to solve complex problems. I believe in continuous learning and always strive to improve my skills.",
   },
   socials: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/sakin111",
+    linkedin: "https://www.linkedin.com/in/sakin-malik-171485254/",
     twitter: "https://twitter.com",
     facebook: "https://facebook.com",
   },
@@ -78,7 +78,7 @@ export const projects: Project[] = [
   {
     id: "travel-buddy",
     name: "Travel Buddy",
-    image: "https://placehold.co/600x400/0070f3/ffffff?text=Travel+Buddy",
+    image: "https://res.cloudinary.com/dmbf41o2r/image/upload/v1768899023/Screenshot_45_tr4bxt.png",
     description: "A Travel Buddy website to connect with travelers worldwide and find your perfect exploring partner. Features include finding verified travelers, browsing travel plans, and creating unforgettable memories together.",
     mainStack: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     liveLink: "https://last-app-client.vercel.app/",
@@ -89,7 +89,7 @@ export const projects: Project[] = [
   {
     id: "wallet-app",
     name: "Wallet App",
-    image: "https://placehold.co/600x400/22c55e/ffffff?text=Wallet+App",
+    image: "https://res.cloudinary.com/dmbf41o2r/image/upload/v1768899119/Screenshot_40_f26f8j.png",
     description: "A secure and efficient wallet application for managing personal finances. (Details scraped from provided link were minimal, assummed generic wallet features).",
     mainStack: ["React", "Vite", "Tailwind CSS"],
     liveLink: "https://wallet-111.netlify.app/",
@@ -100,7 +100,7 @@ export const projects: Project[] = [
   {
     id: "blog-app",
     name: "Blog App",
-    image: "https://placehold.co/600x400/eab308/ffffff?text=Blog+App",
+    image: "https://res.cloudinary.com/dmbf41o2r/image/upload/v1768899627/Screenshot_46_yywfi8.png",
     description: "A modern blogging platform featuring categories like Technology, Design, and Business. Users can read featured posts and explore topics.",
     mainStack: ["Next.js", "TypeScript", "Tailwind CSS"],
     liveLink: "https://blog-app-pied-three.vercel.app/",
