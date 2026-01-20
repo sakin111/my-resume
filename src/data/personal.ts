@@ -18,12 +18,12 @@ export interface Skill {
 }
 
 export const personalDetails = {
-  name: "Your Name", 
+  name: "Sakin Malik", 
   designation: "Frontend Developer",
-  email: "your.email@example.com",
-  phone: "+880 1234 567 890",
-  whatsapp: "+880 1234 567 890",
-  address: "Dhaka, Bangladesh", 
+  email: "maliksakin53@gmail.com",
+  phone: "+880 1923533396",
+  whatsapp: "+880 1923533396",
+  address: "Sherpur,MymenShing, Bangladesh", 
   photo: "https://res.cloudinary.com/dmbf41o2r/image/upload/v1768897981/Gemini_Generated_Image_p27b7bp27b7bp27b_ehif7t.png", // Placeholder
   resumeLink: "https://drive.google.com/file/d/1VHmTP_6d_S_EtineXOGT4BgwDJNacHiM/view?usp=sharing", 
   about: {
@@ -52,16 +52,16 @@ export const skills: Skill[] = [
 
 export const education = [
   {
-    degree: "B.Sc. in Computer Science",
-    institution: "University Name",
-    year: "2020 - 2024",
-    description: "Graduated with honors. Focused on Web Technologies and Software Engineering.",
+    degree: "Bachelor of Economics",
+    institution: "Sherpur Government College",
+    year: "2020 - Present",
+    description: "Running final year.",
   },
   {
     degree: "Higher Secondary Certificate (HSC)",
-    institution: "College Name",
+    institution: "Sherpur Government College",
     year: "2018 - 2020",
-    description: "Science Group.",
+    description: "Arts Group.",
   },
 ];
 
@@ -70,7 +70,7 @@ export const experience = [
     position: "Junior Frontend Developer",
     company: "Tech Company Ltd.",
     year: "2024 - Present",
-    description: "Working on maintaining and upgrading the company's main product dashboard.",
+    description: "No Working Experience.",
   },
 ];
 
