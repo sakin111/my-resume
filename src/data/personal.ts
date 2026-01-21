@@ -25,7 +25,7 @@ export const personalDetails = {
   whatsapp: "+880 1923533396",
   address: "Sherpur,MymenShing, Bangladesh", 
   photo: "https://res.cloudinary.com/dmbf41o2r/image/upload/v1768897981/Gemini_Generated_Image_p27b7bp27b7bp27b_ehif7t.png", // Placeholder
-  resumeLink: "https://drive.google.com/file/d/1VHmTP_6d_S_EtineXOGT4BgwDJNacHiM/view?usp=sharing", 
+  resumeLink: "https://drive.google.com/file/d/1O2tc7-F1LuIl3EAHRuwMgWbKz78qqUjs/view?usp=sharing", 
   about: {
     introduction: "I am a passionate Full Stack Developer with a knack for building beautiful and responsive web applications. My journey started with a curiosity for how websites work, and it has evolved into a full-blown career where I craft seamless user experiences.",
     journey: "I started coding in 2023, diving deep into HTML, CSS, and JavaScript. Over time, I mastered React and Next.js, building various projects that solve real-world problems.",
