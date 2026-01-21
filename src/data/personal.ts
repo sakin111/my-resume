@@ -51,6 +51,7 @@ export const skills: Skill[] = [
   { name: "zod", category: "Frontend", level: 80 },
   { name: "TanStack Query", category: "Frontend", level: 80 },
   { name: "Node.js", category: "Backend", level: 70 },
+  { name: "SQL", category: "Backend", level: 70 },
   { name: "Git / GitHub", category: "Tools", level: 80 },
   { name: "Figma", category: "Tools", level: 70 },
   { name: "OpenAi", category: "AI", level: 70 },
@@ -63,6 +64,8 @@ export const skills: Skill[] = [
   { name: "redis", category: "Backend", level: 80 },
   { name: "JWT", category: "Backend", level: 80 },
   { name: "Passport Js/OAuth", category: "Backend", level: 80 },
+  { name: "Stripe", category: "Backend", level: 80 },
+  { name: "SSlCommerz", category: "Backend", level: 80 },
 
 ];
 
